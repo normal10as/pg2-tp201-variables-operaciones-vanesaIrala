@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{493747CE-A515-4FB0-B0CF-0EFF687CF2BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Variables_operaciones.Module1</StartupObject>
+    <StartupObject>Variables_operaciones.variables1</StartupObject>
     <RootNamespace>Variables_operaciones</RootNamespace>
     <AssemblyName>Variables_operaciones</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="aritmetica5.vb" />
+    <Compile Include="concatenación4.vb" />
+    <Compile Include="día_hora14.vb" />
+    <Compile Include="ecuacion6.vb" />
+    <Compile Include="enumeración_días_semana17.vb" />
+    <Compile Include="intereses_producidos10.vb" />
+    <Compile Include="mayor13.vb" />
+    <Compile Include="potencia_raíz11.vb" />
+    <Compile Include="semanas8.vb" />
+    <Compile Include="sumar_cantidad_días16.vb" />
+    <Compile Include="sumatoriaymedia7.vb" />
+    <Compile Include="valor12.vb" />
+    <Compile Include="variables1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -84,6 +96,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="variables2.vb" />
+    <Compile Include="variables3.vb" />
+    <Compile Include="variable_Date15.vb" />
+    <Compile Include="verdad9.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
